@@ -1,6 +1,6 @@
 import uuid
 from fastapi import APIRouter, HTTPException, status
-from app.schemas import IssueCreate, IssueOut, IssueUpdate
+from app.schemas import IssueCreate, IssueOut, IssueUpdate, IssueStatus
 from app.storage import load_data, save_data 
 
 
